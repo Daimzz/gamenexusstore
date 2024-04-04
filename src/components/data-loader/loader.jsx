@@ -5,7 +5,7 @@ import s from "./loader.module.css";
 export const DataLoader = () => {
   return (
     <div className={s.dataLoader}>
-      <Loader type="roller" color="rgba(255,255,255,0.7)" size={250} />
+      <Loader type="roller" color="rgba(255,255,255,0.7)" size={245} />
     </div>
   );
 };

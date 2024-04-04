@@ -1,9 +1,8 @@
 import s from "./cart-menu.module.css";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { Button } from "../button";
 import { deleteAll } from "../../redux/cart/reducer";
 import { CartItem } from "../cart-item";
-import { useEffect, useRef } from "react";
 export const CartMenu = ({
   items,
   totalPrice,
