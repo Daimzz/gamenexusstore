@@ -1,0 +1,55 @@
+.header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.headerWrapper{
+    display: flex;
+    flex-grow: 1;
+}
+
+.headerStoreTitle{
+    color:white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.headerCartBtnWrapper{
+    justify-content: flex-end;
+}
+
+.headerText {
+    background: linear-gradient(to right, #000 20%, #e0cb52 30%, #e0cb52 30%, #000 70%);
+    -webkit-background-clip: text;
+    font-size: 40px;
+    text-transform: uppercase;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: textShine 15s ease-in-out infinite alternate;
+
+}
+
+@keyframes textShine {
+    to {
+        background-position: 100%;
+    }
+}
+
+@media (max-width: 540px) {
+    .headerText{
+        font-size: 30px;
+    }
+
+}
+@media (max-width: 420px) {
+    .headerText{
+        font-size: 22px;
+    }
+
+}

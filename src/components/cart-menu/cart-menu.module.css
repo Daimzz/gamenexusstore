@@ -1,0 +1,49 @@
+.cartMenu{
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    background-color: rgb(36,37,41);
+    width: 400px;
+    max-width: 400px;
+    padding: 10px 20px;
+    z-index: 2;
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 1px 1px 5px 3px rgba(255,255,255,0.1);
+}
+
+.cartMenuArrange{
+    margin-top: 20px;
+    padding: 20px 0;
+    border-top: 1px solid rgba(255,255,255,0.4);
+
+}
+
+.cartMenuTotalPrice{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.cartEmpty{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #595858;
+    padding-bottom: 15px;
+}
+.cartEmptyBottom{
+    text-align: center;
+    font-size: 12px;
+    color: #595858;
+    padding-bottom: 15px;
+}
+
+@media (max-width: 540px) {
+    .cartMenu{
+        width: 250px;
+        font-size: 13px;
+    }
+    .cartMenu button{
+        font-size: 13px;
+    }
+}

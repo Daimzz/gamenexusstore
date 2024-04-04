@@ -1,0 +1,10 @@
+.gameCover{
+    display: block;
+    height: 170px;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+

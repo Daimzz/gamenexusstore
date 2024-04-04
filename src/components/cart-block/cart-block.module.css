@@ -1,0 +1,37 @@
+.cartBlock{
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.cartIconBlock{
+    position: relative;
+    cursor: pointer;
+}
+
+
+.itemsInCart{
+    position: absolute;
+    display: inline-flex;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+    top: -5px;
+    right: -10px;
+    width: 14px;
+    height: 14px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(224, 82, 203);
+    border-radius: 50%;
+    color: white;
+}
+
+
+.cartPrice{
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+

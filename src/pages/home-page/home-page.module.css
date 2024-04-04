@@ -1,0 +1,18 @@
+.homePage{
+    height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr)); /* Задает количество столбцов и их ширину */
+    column-gap: 40px; /* Отступ между столбцами */
+    row-gap: 60px; /* Отступ между строками */
+}
+@media (max-width: 860px) {
+    .homePage{
+        grid-template-columns: repeat(2, minmax(100px, 1fr)); /* Задает количество столбцов и их ширину */
+    }
+}
+@media (max-width: 630px) {
+    .homePage{
+        grid-template-columns: repeat(1, minmax(100px, 1fr)); /* Задает количество столбцов и их ширину */
+    }
+}

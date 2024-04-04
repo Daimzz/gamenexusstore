@@ -1,0 +1,36 @@
+.gamePage {
+    padding-bottom: 40px
+}
+
+.gamePageTitle {
+
+}
+
+.gamePageContent {
+    display: flex;
+    gap: 70px;
+}
+
+.gamePageLeft {
+    flex: 1 0 55%;
+}
+
+.gamePageRight {
+    flex: 1 1 auto;
+}
+
+.gamePageRightDescription {
+    padding: 15px 0;
+}
+
+.gamePageBuyGame {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+
+
+.gamePageVideo {
+    border: 0px
+}
