@@ -5,12 +5,14 @@ import { getServerData } from "../../service";
 import { DataLoader } from "../../components/data-loader/loader";
 
 export const HomePage = () => {
-  const [games, setGames] = useState(null);
+  const [games, setGames] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    getServerData("http://localhost:4000/games")
+    getServerData(
+      "https://660efc35356b87a55c509f40.mockapi.io/api/games/gamedata",
+    )
       .then((data) => {
         setGames(data);
         setLoading(false);
